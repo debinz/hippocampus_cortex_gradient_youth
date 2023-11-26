@@ -4,7 +4,7 @@ Code and data for the manuscript entitled "Hippocampus reorganizes its function 
 
 ## File descriptions
 
-
+1. 
 
 ## Installation
 
@@ -20,6 +20,10 @@ The original and preprocessed HCP-D data, after meeting eligibility requirements
 
 ## Dependencies
 
+1. Hippocampal gradient computation and visualization: [cifti-matlab](https://github.com/Washington-University/cifti-matlab)(v2.1.0); [gifti](https://github.com/gllmflndn/gifti); [BrainSpace tool](https://github.com/MICA-MNI/BrainSpace)(v0.1.10); [gramm](https://github.com/piermorel/gramm); [SurfStat](https://math.mcgill.ca/keith/surfstat/) in Matlab (r2018a)
+2. Hippocampal geometric eigenmodes computation: Partly adapted from [BrainEigenmodes](https://github.com/NSBLab/BrainEigenmodes/tree/main) by Pang et al., need [FreeSurfer](https://surfer.nmr.mgh.harvard.edu/fswiki/DownloadAndInstall), [Connectome Workbench](https://www.humanconnectome.org/software/get-connectome-workbench), and [Gmsh](https://gmsh.info/) software, and python library [LaPy](https://github.com/Deep-MI/LaPy)(v0.6.0), [nibabel](https://nipy.org/nibabel/).
+3. Transcriptomic association analysis of the hippocampal gradients: Partly adapted from [Hippocampus_AP_Axis](https://github.com/illdopejake/Hippocampus_AP_Axis) by Vogel et al., need 
+4. d
 
 ## Compatibility
 
