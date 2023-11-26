@@ -1,15 +1,40 @@
 # Hippocampus_cortex_gradient_youth
-This repository provides core codes and relevant tools for data analysis in the article entitled "Hippocampus Reorganizes its Function and Geometry along a Dual Long-axis for Cognitive Maturation in Youth" by Zeng et al.
 
-## Overview:
+Code and data for the manuscript entitled "Hippocampus Reorganizes its Function and Geometry along a Dual Long-axis for Cognitive Maturation in Youth" by Zeng et al.
 
-Content includes standalone software, source code, and demo data. All data required for reproducing our findings have been made publicly available, including ?, ? for each participant, intermediate results during analysis, and data for visualizing the main figures. Raw data is available from the corresponding authors upon reasonable request. Of note, due to the limitation of data size, some data is placed in another public cloud storage: ?
-
-## Installation guide:
-
-Please use the “add path” method in MATLAB, "pip install" method in Python, and "install.packages()" method in R to add tools and scripts in the code folder. These procedures are not time-consuming.
-
-## Dependancy 
+## File descriptions
 
 
-## Codes
+
+## Installation
+
+
+
+## Downloading data
+
+
+
+## Original data
+
+The original and preprocessed HCP-D data, after meeting eligibility requirements, can be accessed here: https://humanconnectome.org/study/hcp-lifespan-development.
+
+## Dependencies
+
+
+## Compatibility
+
+The codes have been tested on versions of Python 3.8 and versions of MATLAB R2018a.
+
+## Demo
+
+
+
+## Citation
+
+If you use our code in your research, please cite us as follows:
+
+[PREPRINT] D. Zeng, Q. Li, D. Li, ..., Y. He, X. Zuo, S. Li, Dual long-axis reorganization of hippocampus in youth, bioRxiv (2023) (DOI: [10.1101/2023.11.03.565423](https://www.biorxiv.org/content/10.1101/2023.11.03.565423v1.article-metrics))
+
+## Further details
+
+Please contact debin_z@126.com if you need any further details.
