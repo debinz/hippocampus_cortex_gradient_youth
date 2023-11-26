@@ -1,6 +1,6 @@
 # Hippocampus_cortex_gradient_youth
 
-Code and data for the manuscript entitled "Hippocampus Reorganizes its Function and Geometry along a Dual Long-axis for Cognitive Maturation in Youth" by Zeng et al.
+Code and data for the manuscript entitled "Hippocampus reorganizes its function and geometry along a dual long-axis for cognitive maturation in youth" by Zeng et al.
 
 ## File descriptions
 
