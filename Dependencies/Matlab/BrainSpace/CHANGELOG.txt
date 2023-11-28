@@ -1,0 +1,128 @@
+v0.1.4, August 2022 -- Support for vtk 9.2
+MATLAB:
+  - Fixed the uploading of tutorial data to FileExchange.
+  - Fixed a bug that caused the detection of connected affinity matrices to
+  error.
+  
+Python:
+  - GradientMaps.fit() now returns an error when the affinity matrix contains
+  NaN or Inf.
+  - Added a warning when plot_hemispheres() is run without a display.
+  - Added support for vtk 9.2
+  - For plotting, array_name=None now plots surfaces without any array data.
+
+
+v0.1.3, January 2022 -- Fix dependency error
+Python:
+  - Fixed an issue caused by an update to scikit-learn's kmeans function.
+
+
+Hotfix, September 2021 -- MATLAB eigenvalues
+MATLAB:
+- Fixed an inaccuracy in the computation of the eigenvalues in diffusion mapping.
+
+v0.1.2, July 2022
+MATLAB:
+  - Added a verbose flag to GradientMaps (default value: false).
+  - plot_hemispheres has several new functionalities:
+      - Now returns an object rather than the graphics handles.
+        Old graphics handles are stored in object.handles. 
+      - Added the following methods to the plot_hemispheres object for 
+      modifying figure properties:
+          - object.colorlimits: modifies color limits.
+          - object.colormaps: modifies colormaps. 
+          - object.labels: modifies labeltext properties. 
+          - Added a "views" name-value pair that enables anterior, 
+            posterior, superior, and inferior views. 
+  - Added a MATLAB implementation of BrainSMASH (i.e. variogram 
+  matching null model)
+  - procrustes_alignment now outputs the rotation matrices as a second
+  output variable. 
+  - Added an installation as a toolbox.
+
+Python:
+  - brainspace.mesh.mesh_io.read_surface now supports gzipped files. 
+  - Added the variogram matching procedure.
+  - Added a new layout for plot_hemispheres.
+  - Default diffusion time now set to 0.
+
+ReadTheDocs
+ - Updated MATLAB documentation of GradientMaps with the verbose flag.
+ - Updated MATLAB documentation of plot_hemispheres to reflect the new 
+   changes.  
+ - Added MATLAB/Python documentation/tutorial for the variogram function. 
+ - Corrected the diffusion maps documentation.
+
+Hotfix, January 2021 -- MATLAB Joint Alignment
+MATLAB:
+- Fixed faulty dimensionality extraction in joint alignment of asymmetric
+matrices. 
+
+v0.1.1, March 2020 -- Quality of life update
+MATLAB:
+- New functionality:
+    - split_surfaces.m 
+    - surface_to_graph.m
+    - load_group_mpc.m
+- Bug fixes:
+    - Fixed a bug where the example data loaders failed when the BrainSpace
+      directory was not named "BrainSpace".
+    - Matrix sparsification now correctly thresholds -inf. 
+    - The "Running with sparsity parameter..." message will now correctly 
+      display with every kernel. 
+    - Fixed a bug where joint embedding of non-square matrices would fail.
+    - plot_hemispheres will no longer error when using non-float data. 
+- Other changes:
+    - Optimized the spin_permutation code. It should now run substantially 
+      faster, especially with a large number of permutations.
+    - Improved several warning/error messages.
+    - Moved execution of custom kernels to after the sparsification.
+Python:
+- gradient:
+    - Fix bug in alignment (remove centering and scaling)
+    - Add support for procrutes alignment of one subject to reference in
+      GradientMaps
+    - Remove dependency on _graph_is_connected from scikit-learn
+
+- datasets:
+    - Add load_group_mpc
+
+- mesh:
+    - Update build_polydata with new vtk_interface
+    - Add downsample_with_parcellation to mesh_operations
+    - Fixed a bug with mask for smooth_array and add support for
+      multicomponent arrays (columns). Smooth columns separately.
+
+- parcellation
+    - Fixed a bug in find_label_correspondence
+
+- plotting:
+    - Add plotting defaults
+    - Add build_plotter
+    - Update plot_surf
+    - Remove numpy warning plot_hemispheres
+
+- vtk_interface:
+    - Reorganize and add several wrappers
+    - Update wrap_vtk to look for superclasses is BS wrapper doesn't exist
+    - Add support for vtkSringArray and vtkVariantArray
+    - Add vtype kwarg in decorators for unwarpping numpy to vtk abstractarray
+    - Add support for dict arguments
+    - Add automatic wrap/unwrap output/input of vtk methods
+    - Add new repr
+    - Add wrappers BSActor2D, BSScalarBarActor, BSTexturedActor2D, BSTextActor
+    - Add AddScalarBarActor and AddTextActor methods for BSViewport
+    - Add io_support from mesh here
+
+- tests:
+    - Update tests with new vtk_interface
+
+- requiremnts:
+    - Update to scikit-learn>=0.22.0
+    - Remove pillow
+
+ReadTheDocs:
+- Added matrix fusion example to MATLAB tutorial 2.
+
+
+v0.1.0, September 2019 -- Initial release
