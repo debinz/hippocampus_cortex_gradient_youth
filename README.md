@@ -21,7 +21,7 @@ For the Python codes, set up the environment based on the `*_package_list.txt` i
 
 ## Downloading data
 
-We provide example data for one subject in the `Data/`, directory, which includes hippocampal fMRI and cortical fMRI data, output files from `Hippunfold`, and files related to hippocampal geometric eigenmodes. You can download this data from _.
+We provide example data for one subject in the `Data/` directory, which includes hippocampal fMRI and cortical fMRI data, output files from `Hippunfold`, and files related to hippocampal geometric eigenmodes. You can download this data from _.
 
 ## Original data
 
@@ -31,7 +31,7 @@ The original and preprocessed HCP-D data, after meeting eligibility requirements
 
 Some of the dependency packages, especially those with modifications, have been stored in the `Dependencies/` folder to ensure version compatibility. 
 
-1. Hippocampal gradient computation and visualization: 
+1. **Hippocampal gradient computation and visualization:**
 
 - [cifti-matlab](https://github.com/Washington-University/cifti-matlab)(v2.1.0)
 	
@@ -43,7 +43,7 @@ Some of the dependency packages, especially those with modifications, have been 
 	
 - [SurfStat](https://math.mcgill.ca/keith/surfstat/) with modifications to include additional useful functions
 
-2. Hippocampal geometric eigenmodes computation: 
+2. **Hippocampal geometric eigenmodes computation:** 
 
 - Partially adapted from [BrainEigenmodes](https://github.com/NSBLab/BrainEigenmodes/tree/main) by Pang et al.
 	
@@ -51,7 +51,7 @@ Some of the dependency packages, especially those with modifications, have been 
 	
 - Python environment details in `Dependencies/Python/BrainEigMod_package_list.txt`.
 
-3. Transcriptomic association and gene enrichment analysis of the hippocampal gradients: 
+3. **Transcriptomic association and gene enrichment analysis of hippocampal gradients:** 
 
 - Partially adapted from [Hippocampus_AP_Axis](https://github.com/illdopejake/Hippocampus_AP_Axis) by Vogel et al. 
 	
@@ -61,7 +61,7 @@ Some of the dependency packages, especially those with modifications, have been 
 	
 - [Developmental-specific expression analysis (SEA) tool](http://genetics.wustl.edu/jdlab/cseatool-2/)
 
-4. Analysis of developmental effects: 
+4. **Analysis of developmental effects:**
 	
 - R packages: [mgcv](https://rdocumentation.org/packages/mgcv/versions/1.8-42)(v1.8-42) and [gratia](https://rdocumentation.org/packages/gratia/versions/0.8.1)(v0.8.1).
 
