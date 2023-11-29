@@ -57,9 +57,9 @@ Some of the dependency packages, especially those with modifications, have been 
 	
 - Python environment details in `Dependencies/Python/Hipp_Gene_package_list.txt`.
 	
-- [Metascape web tool](www.metascape.org). 
+- [Metascape web tool](https://metascape.org/). 
 	
-- [Developmental-specific expression analysis (SEA) tool](http://genetics.wustl.edu/jdlab/cseatool-2/)
+- [Developmental-specific expression analysis (SEA) tool](http://doughertylab.wustl.edu/csea-tool-2/)
 
 4. **Analysis of developmental effects:**
 	
