@@ -4,6 +4,8 @@ Code and data for the manuscript entitled "Hippocampus reorganizes its function 
 
 ## File descriptions
 
+The code files are located within the `Code/` directory,
+
 1. `compute_gradient_avg_all.m`: This script computes group-averaged hippocampal-cortical connectome gradients, visualizes these gradients on mid-thickness surfaces, and tests the relationships between hippocampal gradients and AP/PD coordinates.
 
 2. `hippgrad_ctx_projection.m`: In this script, the cortical projection of hippocampal gradients is computed. It also visualizes the group-averaged projection map and tests the relationships between cortical projection maps and cortical functional hierarchy.
