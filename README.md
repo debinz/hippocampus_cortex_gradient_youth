@@ -8,11 +8,23 @@ The code files are located within the `Code/` directory,
 
 1. `compute_gradient_avg_all.m`: This script computes group-averaged hippocampal-cortical connectome gradients, visualizes these gradients on mid-thickness surfaces, and tests the relationships between hippocampal gradients and AP/PD coordinates.
 
-2. `hippgrad_ctx_projection.m`: In this script, the cortical projection of hippocampal gradients is computed. It also visualizes the group-averaged projection map and tests the relationships between cortical projection maps and cortical functional hierarchy.
+2. `hippgrad_ctx_projection.m`: In this script, the cortical projection of hippocampal gradients is computed. It also visualizes the group-averaged projection map and tests the relationships between cortical projection maps and cortical functional hierarchy (FH).
 
 3. `hippvol_eigenmode_calculation.sh`: This script computes the Laplacian eigenmodes for each individual hippocampus.
 
 4. `compute_gradient_geometry_coupling.m` This script computes the coupling between individual hippocampal gradients and their geometric eigenmodes. It visualizes the group-averaged geometric eigenmodes and tests the relationships between group-averaged geometric eigenmodes and group-level functional gradients.
+
+5. `G_feat_age_gam.R`: This script fits the developmental trajectories of explained variance and distribution characteristics corresponding to hippocampal gradients.
+
+6. `Mye_bins_age_gam_HCD.R`: This script fits the developmental trajectories of mean T1w/T2w intensity within each of the uniform partitioned bins along the group-averaged myelin content axis. 
+
+7. `G_bins_age_gam_HCD.R`: This script fits the developmental trajectories of mean gradient values within each of the uniform  partitioned bins along the group-averaged myelin content axis.
+
+8. `G_CTX_FH_age_gam.R`: This script examines the developmental pattern of the association  between individual gradient projections and the adult cortical FH map.
+
+9. `G_CTX_proj_LR_age_gam.R`: This script characterizes the maturational changes in the hippocampal gradient projections in individual cortical regions.
+
+10. `EigMod_G_age_gam.R`: This script fits the age-related trajectory of the coupling between hippocampal geometric modes and their corresponding gradients.
 
 Additionally, intermediate processing results produced by the above scripts are included in `Results/`. These include group-averaged hippocampal-cortical connectivity and corresponding gradients, group-averaged cortical projections of hippocampal gradients, and group-averaged hippocampal geometric eigenmodes.
 
@@ -59,13 +71,13 @@ Some of the dependency packages, especially those with modifications, have been 
 	
 - Python environment details in `Dependencies/Python/Hipp_Gene_package_list.txt`.
 	
-- [Metascape web tool](https://metascape.org/). 
+- [Metascape web tool](https://metascape.org/) 
 	
 - [Developmental-specific expression analysis (SEA) tool](http://doughertylab.wustl.edu/csea-tool-2/)
 
 4. **Analysis of developmental effects:**
 	
-- R packages: [mgcv](https://rdocumentation.org/packages/mgcv/versions/1.8-42)(v1.8-42) and [gratia](https://rdocumentation.org/packages/gratia/versions/0.8.1)(v0.8.1).
+- R packages: [mgcv](https://rdocumentation.org/packages/mgcv/versions/1.8-42)(v1.8-42) and [gratia](https://rdocumentation.org/packages/gratia/versions/0.8.1)(v0.8.1)
 
 ## Compatibility
 
@@ -75,7 +87,7 @@ The code has been tested on Python 3.8, MATLAB R2018a, and R 4.2.3.
 
 If you use our code in your research, please cite us as follows:
 
-[PREPRINT] D. Zeng, Q. Li, D. Li, ..., Y. He, X. Zuo, S. Li, Dual long-axis reorganization of hippocampus in youth, bioRxiv (2023) (DOI: [10.1101/2023.11.03.565423](https://www.biorxiv.org/content/10.1101/2023.11.03.565423v1.article-metrics))
+[PREPRINT] D. Zeng, Q. Li, D. Li, ..., Y. He, X. Zuo, S. Li, Dual long-axis reorganization of hippocampus in youth, bioRxiv (2023) (DOI: [10.1101/2023.11.03.565423](https://www.biorxiv.org/content/10.1101/2023.11.03.565423v1))
 
 ## Further details
 
