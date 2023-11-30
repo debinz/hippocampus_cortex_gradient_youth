@@ -1,5 +1,5 @@
 clc;clear;
-cd E:\code\hippocampus_cortex_gradient_youth % replace this with absolute path of your working directory
+cd E:\Github\hippocampus_cortex_gradient_youth % replace this with absolute path of your working directory
 addpath(genpath('./Dependencies/Matlab/'))
 
 % root path to save all the results
