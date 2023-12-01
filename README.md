@@ -1,5 +1,7 @@
 # Hippocampus_cortex_gradient_youth
 
+[![Fig](Dual_long-axis_gradient.png "Dual long-axis gradient")](https://www.biorxiv.org/content/10.1101/2023.11.03.565423v1)
+
 Code and data for the manuscript entitled "Hippocampus reorganizes its function and geometry along a dual long-axis for cognitive maturation in youth" by Zeng et al.
 
 ## File descriptions
@@ -30,11 +32,11 @@ For the Python codes, set up the environment based on the `*_package_list.txt` i
 
 We provide example data for one subject in the `Data/` directory, which includes hippocampal fMRI and cortical fMRI data, output files from `Hippunfold`, and files related to hippocampal geometric eigenmodes. You can download this data from _.
 
-You can download the transcription data from the [Allen Human Brain Atlas](http://human.brain-map.org/static/download) site and get the renormalized sample coordinates in MNI space at https://zenodo.org/records/2483290.   
+You can download the transcription data from the [Allen Human Brain Atlas](http://human.brain-map.org/static/download) site and get the renormalized sample coordinates in MNI space at [here](ttps://zenodo.org/records/2483290).   
 
 ## Original data
 
-The original and preprocessed HCP-D data, after meeting eligibility requirements, can be accessed here: https://humanconnectome.org/study/hcp-lifespan-development.
+The original and preprocessed HCP-D data, after meeting eligibility requirements, can be accessed [here](https://humanconnectome.org/study/hcp-lifespan-development).
 
 ## Dependencies
 
