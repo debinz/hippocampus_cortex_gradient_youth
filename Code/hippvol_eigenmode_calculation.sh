@@ -2,11 +2,12 @@
 
 start_time=$(date +%s)
 
-export hippunfold_dir="../Data/hippunfold_HCD"
-export hippovol_dir="../Data/hippovol_native"
+export work_dir="/YourPath/hippocampus_cortex_gradient_youth" #Add your absolute path of your working directory
+export hippunfold_dir="${work_dir}/Data/hippunfold_HCD"
+export hippovol_dir="${work_dir}/Data/hippovol_native"
 
 export hemispheres='L R'
-export MNI2mm="../Surf_temp/vol_templates/MNI152_T1_2mm.nii.gz"
+export MNI2mm="${work_dir}/Surf_temp/vol_templates/MNI152_T1_2mm.nii.gz"
 
 export num_modes=31
 export normalization_type='none'
@@ -35,7 +36,7 @@ output_emode_filename="${hippovol_dir}/${Subj_id}/${Subj_id}_hemi-${hemi}_space-
 
 if [ ! -f ${output_emode_filename} ]; then
     echo Processing ${Subj_id}-${hemi}
-     python ../Dependencies/Python/volume_eigenmodes.py ${nifti_input_filename} ${nifti_output_filename} \
+     python ${work_dir}/Dependencies/Python/volume_eigenmodes.py ${nifti_input_filename} ${nifti_output_filename} \
                                  ${output_eval_filename} ${output_emode_filename} \
                                  -N ${num_modes} -norm ${normalization_type} -normfactor ${normalization_factor}
 fi
