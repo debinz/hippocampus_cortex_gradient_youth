@@ -1,8 +1,8 @@
 # Hippocampus_cortex_gradient_youth
 
-[![Fig](Dual_long-axis_gradient.png "Dual long-axis gradient")](https://www.biorxiv.org/content/10.1101/2023.11.03.565423v1)
+[![Fig](conceptional-figure-v2.png "Casading from Neurobioloy to Cognition")](https://www.researchsquare.com/article/rs-8009443/v1)
 
-Code and data for the manuscript entitled "Hippocampus reorganizes its function and geometry along a dual long-axis for cognitive maturation in youth" by Zeng et al.
+Code and data for the manuscript entitled "Deciphering developmental gradients in human hippocampus" by Zeng et al.
 
 ## File descriptions
 
@@ -84,7 +84,7 @@ The code has been tested on Python 3.8, MATLAB R2018a, and R 4.2.3.
 
 If you use our code in your research, please cite us as follows:
 
-[PREPRINT] D. Zeng, Q. Li, D. Li, ..., Y. He, X. Zuo, S. Li, Dual long-axis reorganization of hippocampus in youth, bioRxiv (2023) (DOI: [10.1101/2023.11.03.565423](https://www.biorxiv.org/content/10.1101/2023.11.03.565423v1))
+[PREPRINT] D. Zeng, Q. Li, D. Li, ..., Y. He, X. Zuo, S. Li, Deciphering developmental gradients in human hippocampus, 2025 (DOI: [10.21203/rs.3.rs-8009443/v1](https://www.researchsquare.com/article/rs-8009443/v1))
 
 ## Further details
 
