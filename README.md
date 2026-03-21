@@ -18,8 +18,8 @@ The code files are located within the `Code/` directory,
 8. `G_CTX_FH_age_gam.R`: This script investigates the developmental pattern of the association  between individual gradient projections and the adult cortical FH map.  
 9. `G_CTX_proj_LR_age_gam.R`: This script characterizes the maturational changes in hippocampal gradient projections in individual cortical regions. Please note that running this analysis may take approximately 6 minutes.  
 10. `EigMod_G_age_gam.R`: This script models the age-related trajectory of the coupling between hippocampal geometric modes and their corresponding gradients.  
-11. `Brain_behavior_association.m`: This script tests the relationship between Executive Function performance and the geometric-functional coupling of lLG.  
-12. `Brain_behavior_association_agegrp.m`: This script tests the relationship between Executive Function performance and the geometric-functional coupling of qLG within specific age groups.  
+11. `GProj_Behav.ipynb`: This script implements a 10-fold cross-validated LASSO-PCR regression model to predict cognitive outcomes using hippocampal gradient projections as input features.  
+12. `G1_GeneExp_FittingModel.ipynb`: This script implements a 10-fold cross-validated LASSO-PCR algorithm to predict lLG  using gene expression profiles as input features. 
 
 Additionally, intermediate processing results produced by the above scripts are included in `Results/`. These include group-averaged hippocampal-cortical connectivity and corresponding gradients, group-averaged cortical projections of hippocampal gradients, and group-averaged hippocampal geometric eigenmodes.
 
